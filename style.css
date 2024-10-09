@@ -1,0 +1,75 @@
+/* style.css */
+
+body {
+    background-color: #121212; /* Mørk bakgrunn */
+    color: #ffffff; /* Hvit tekst */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #b22222; /* Rød bakgrunn for menyen */
+    padding: 20px;
+    text-align: center;
+}
+
+.header img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 2px solid #b22222; /* Rød kantlinje */
+    border-radius: 5px;
+    width: 80%;
+    margin-right: 10px;
+    background-color: #333; /* Mørk bakgrunn for input */
+    color: #ffffff; /* Hvit tekst for input */
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #b22222; /* Rød bakgrunn for knappen */
+    color: white; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff4444; /* Lysere rød ved hover */
+}
+
+.character {
+    margin-top: 20px;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.images img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+}
+
+.info {
+    margin-top: 10px;
+}
+
+.menu img {
+    max-width: 100%; 
+    height: auto; 
+    max-height: 150px; 
+    margin: 0 auto;
+    display: block; 
+}
